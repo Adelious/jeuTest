@@ -26,7 +26,6 @@ public class CameraFollow : NetworkBehaviour {
 
 	private float inputX = 0.0f;
 	private float inputZ = 0.0f;
-
 	private bool mouseLocked;
 
 	[SerializeField] private GameObject pauseMenu;

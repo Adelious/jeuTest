@@ -8,31 +8,36 @@ using Unity.Netcode.Transports.UTP;
 
 public class NetworkManagerUI : MonoBehaviour
 {
-    [SerializeField] private GameObject networkManager;
     [Header("Bouttons")]
     [SerializeField] private Button serverButton;
     [SerializeField] private Button hostButton;
     [SerializeField] private Button clientButton;
-    [SerializeField] private TextMeshProUGUI portField;
+    [SerializeField] private TextMeshProUGUI ipField;
     [SerializeField] private Button leaveButton;
     [SerializeField] private Button quitButton;
 
 
     private void Awake(){
         serverButton.onClick.AddListener(() => {
-            networkManager.GetComponent<UnityTransport>().ConnectionData.Address = portField.text;
             NetworkManager.Singleton.StartServer();
         });
         hostButton.onClick.AddListener(() => {
             NetworkManager.Singleton.StartHost();
         });
         clientButton.onClick.AddListener(() => {
-            NetworkManager.Singleton.StartClient();
+            if (ipField.text.ToString().Remove(ipField.text.Length-1) != null) {
+                NetworkManager.Singleton.GetComponent<UnityTransport>().SetConnectionData(
+                    ipField.text.ToString().Remove(ipField.text.Length-1),  
+                    (ushort)7777
+                );
+                NetworkManager.Singleton.StartClient();
+            }
         });
         leaveButton.onClick.AddListener(() => {
-            Debug.Log("Deconnexion");
+            NetworkManager.Singleton.Shutdown();
         });
         quitButton.onClick.AddListener(() => {
+            NetworkManager.Singleton.Shutdown();
             Application.Quit();
         });
     }
