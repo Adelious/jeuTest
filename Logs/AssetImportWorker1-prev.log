@@ -1,0 +1,413 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.22f1 (b6c551784ba3) revision 11978065'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'fr' Physical Memory: 16301 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/Unity Projects/Test
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+54083
+Successfully changed project path to: D:/Unity Projects/Test
+D:/Unity Projects/Test
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [17784] Host "[IP] 192.168.1.17 [Port] 0 [Flags] 2 [Guid] 1984265815 [EditorId] 1984265815 [Version] 1048832 [Id] WindowsEditor(7,Kylian) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [17784] Host "[IP] 192.168.1.17 [Port] 0 [Flags] 2 [Guid] 1984265815 [EditorId] 1984265815 [Version] 1048832 [Id] WindowsEditor(7,Kylian) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 932.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.22f1 (b6c551784ba3)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity Projects/Test/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c8c)
+    Vendor:   NVIDIA
+    VRAM:     1979 MB
+    Driver:   24.21.13.9901
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56880
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.028719 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 782.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.375 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5377ms)
+		BeginReloadAssembly (571ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (3537ms)
+			LoadAssemblies (561ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (717ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (219ms)
+			SetupLoadedEditorAssemblies (2306ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (39ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (783ms)
+				BeforeProcessingInitializeOnLoad (8ms)
+				ProcessInitializeOnLoadAttributes (934ms)
+				ProcessInitializeOnLoadMethodAttributes (540ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.042736 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  7.031 seconds
+Domain Reload Profiling:
+	ReloadAssembly (7037ms)
+		BeginReloadAssembly (592ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (30ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (78ms)
+		EndReloadAssembly (5794ms)
+			LoadAssemblies (591ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1719ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (285ms)
+			SetupLoadedEditorAssemblies (3048ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (26ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (756ms)
+				ProcessInitializeOnLoadAttributes (2072ms)
+				ProcessInitializeOnLoadMethodAttributes (159ms)
+				AfterProcessingInitializeOnLoad (28ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (36ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.27 seconds
+Refreshing native plugins compatible for Editor in 4.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5065 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (113.5 KB). Loaded Objects now: 5512.
+Memory consumption went from 182.5 MB to 182.4 MB.
+Total: 30.524400 ms (FindLiveObjects: 3.257500 ms CreateObjectMapping: 1.963500 ms MarkObjects: 21.678400 ms  DeleteObjects: 3.620800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 7638.403039 seconds.
+  path: Assets/Player.prefab
+  artifactKey: Guid(ae5fac80c6596524e896feadebb71671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player.prefab using Guid(ae5fac80c6596524e896feadebb71671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c5997d5f5e97b8f6766f84bf04aa057') in 4.064312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 150.198995 seconds.
+  path: Assets/imports/school-building.obj
+  artifactKey: Guid(8c4aae510141f504293b6d7bb45df2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/school-building.obj using Guid(8c4aae510141f504293b6d7bb45df2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61e780826da5c1032e1430b0b06b518c') in 0.085366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.313254 seconds.
+  path: Assets/imports/50-girl-blend/Girl.blend
+  artifactKey: Guid(4d5fdf66236ae3a4a955dd79950f4dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/50-girl-blend/Girl.blend using Guid(4d5fdf66236ae3a4a955dd79950f4dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01645485761b4b9d93414eb82874883b') in 0.648812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 61.503949 seconds.
+  path: Assets/imports/50-girl-blend/Animations/Girl@Female Start Walking.fbx
+  artifactKey: Guid(e1cc859524fb07e41848d3722a496c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/50-girl-blend/Animations/Girl@Female Start Walking.fbx using Guid(e1cc859524fb07e41848d3722a496c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39daca4a0c8950b1cf03110713140c56') in 0.480522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/imports/50-girl-blend/Animations/Girl@Walking.fbx
+  artifactKey: Guid(01dddacc68168414ea1cd263921cc90a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/50-girl-blend/Animations/Girl@Walking.fbx using Guid(01dddacc68168414ea1cd263921cc90a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45e9834628e6dc65cf1a2d0fb9e40a1a') in 0.716860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/imports/50-girl-blend/Animations/Girl@Idle.fbx
+  artifactKey: Guid(f0dd1c6c39095c844b57605ffa68f0ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/50-girl-blend/Animations/Girl@Idle.fbx using Guid(f0dd1c6c39095c844b57605ffa68f0ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb79799eb3cb58dc580f2dcae9ec8074') in 0.649933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.327970 seconds.
+  path: Assets/imports/50-girl-blend/Animations/Pack
+  artifactKey: Guid(3539fd5b90b866c44b67bef3a7262352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/50-girl-blend/Animations/Pack using Guid(3539fd5b90b866c44b67bef3a7262352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eeccb02d27b932a3b125c2b9e240d32') in 0.018912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.739830 seconds.
+  path: Assets/imports/50-girl-blend/Animations/Pack/Female Basic Locomotion Pack
+  artifactKey: Guid(8284c856a3cfaff41af21acf2bf32136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/50-girl-blend/Animations/Pack/Female Basic Locomotion Pack using Guid(8284c856a3cfaff41af21acf2bf32136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdc1b81949768d0724ca37d61845c893') in 0.020892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/imports/50-girl-blend/Animations/Pack/Female Basic Locomotion Pack/right turn.fbx
+  artifactKey: Guid(addd0fd6aa09b694fb967ed42b8388e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/50-girl-blend/Animations/Pack/Female Basic Locomotion Pack/right turn.fbx using Guid(addd0fd6aa09b694fb967ed42b8388e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a5c421d8791112f80cb78ad0a8f9a43') in 0.036810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/imports/50-girl-blend/Animations/Pack/Female Basic Locomotion Pack/left strafe.fbx
+  artifactKey: Guid(32bd126c361a7b54aa5f918f7425ba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/50-girl-blend/Animations/Pack/Female Basic Locomotion Pack/left strafe.fbx using Guid(32bd126c361a7b54aa5f918f7425ba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af248ff44fe5a39ffc86c10375b28b28') in 0.035059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/imports/50-girl-blend/Animations/Pack/Female Basic Locomotion Pack/running.fbx
+  artifactKey: Guid(d8b7737c54cfdbf42b31136c08d75b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/50-girl-blend/Animations/Pack/Female Basic Locomotion Pack/running.fbx using Guid(d8b7737c54cfdbf42b31136c08d75b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f54b11218737f791ef8f13195eb8078') in 0.044279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/imports/50-girl-blend/Animations/Pack/Female Basic Locomotion Pack/idle.fbx
+  artifactKey: Guid(1b38e3a64a191364e9dfd04720336f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/50-girl-blend/Animations/Pack/Female Basic Locomotion Pack/idle.fbx using Guid(1b38e3a64a191364e9dfd04720336f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '135730a9751ff64c38b17109a530a2f7') in 0.036104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/imports/50-girl-blend/Animations/Pack/Female Basic Locomotion Pack/left turn.fbx
+  artifactKey: Guid(39509e486e6a62d43a08267a2cc5819a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/50-girl-blend/Animations/Pack/Female Basic Locomotion Pack/left turn.fbx using Guid(39509e486e6a62d43a08267a2cc5819a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acd7fd107bcd4883b51ae757110641a2') in 0.038995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001138 seconds.
+  path: Assets/imports/50-girl-blend/Animations/Pack/Female Basic Locomotion Pack/left strafe walk.fbx
+  artifactKey: Guid(3902d59a346d85c419a2860df8d2c6c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/50-girl-blend/Animations/Pack/Female Basic Locomotion Pack/left strafe walk.fbx using Guid(3902d59a346d85c419a2860df8d2c6c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ee026201b3bce988318a0250c5bba69') in 0.041103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/imports/50-girl-blend/Animations/Pack/Female Basic Locomotion Pack/jump.fbx
+  artifactKey: Guid(d6e97121b955d0e4196802847f8344bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/50-girl-blend/Animations/Pack/Female Basic Locomotion Pack/jump.fbx using Guid(d6e97121b955d0e4196802847f8344bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bd737c4a99b7079d223f3169c7f27b8') in 0.066997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/imports/50-girl-blend/Animations/Pack/Female Basic Locomotion Pack/right strafe.fbx
+  artifactKey: Guid(f322759a58d2f0944b0b8a3f8f0196a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/50-girl-blend/Animations/Pack/Female Basic Locomotion Pack/right strafe.fbx using Guid(f322759a58d2f0944b0b8a3f8f0196a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e47e20de689588b95ff34a2a52b32d12') in 0.046418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/imports/50-girl-blend/Animations/Pack/Female Basic Locomotion Pack/right turn (2).fbx
+  artifactKey: Guid(94c82edb9d5075040a5ad72dbbfeeb9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/50-girl-blend/Animations/Pack/Female Basic Locomotion Pack/right turn (2).fbx using Guid(94c82edb9d5075040a5ad72dbbfeeb9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94b362eb656a3ab3f4ebb910ccf08471') in 0.058566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/imports/50-girl-blend/Animations/Pack/Female Basic Locomotion Pack/left turn (2).fbx
+  artifactKey: Guid(2e922d714102e1e4186e3d246bdb3ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/50-girl-blend/Animations/Pack/Female Basic Locomotion Pack/left turn (2).fbx using Guid(2e922d714102e1e4186e3d246bdb3ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd149915215e2ba99091964c1642b0e6') in 0.042010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/imports/50-girl-blend/Animations/Pack/Female Basic Locomotion Pack/Girl.fbx
+  artifactKey: Guid(d714b0fd7f89d4d4783fa847afd5f114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/50-girl-blend/Animations/Pack/Female Basic Locomotion Pack/Girl.fbx using Guid(d714b0fd7f89d4d4783fa847afd5f114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '387dc5ace302247df8c6219668165742') in 0.932250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/imports/50-girl-blend/Animations/Pack/Female Basic Locomotion Pack/right strafe walk.fbx
+  artifactKey: Guid(dcc9deb4c54bf6642b60329f5d22e735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/50-girl-blend/Animations/Pack/Female Basic Locomotion Pack/right strafe walk.fbx using Guid(dcc9deb4c54bf6642b60329f5d22e735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82b3b2d1ee57c56c0cb5c751ed703d0b') in 0.046280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/imports/50-girl-blend/Animations/Pack/Female Basic Locomotion Pack/walking.fbx
+  artifactKey: Guid(8e97d225b488b1141889b6d52d426aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/50-girl-blend/Animations/Pack/Female Basic Locomotion Pack/walking.fbx using Guid(8e97d225b488b1141889b6d52d426aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33147e76f20e63333fc0f54717624a08') in 0.068389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.198946 seconds.
+  path: Assets/imports/50-girl-blend/Animations/Pack/Female Basic Locomotion Pack/Girl.fbx
+  artifactKey: Guid(d714b0fd7f89d4d4783fa847afd5f114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/50-girl-blend/Animations/Pack/Female Basic Locomotion Pack/Girl.fbx using Guid(d714b0fd7f89d4d4783fa847afd5f114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4c083aefe55ec091c14d5f042191a8b') in 0.773629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 56.916921 seconds.
+  path: Assets/imports/9btvoxf8n0cg-3dt/Street environment_V01.FBX
+  artifactKey: Guid(7da092ca6c07c4948832489186c3a865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/9btvoxf8n0cg-3dt/Street environment_V01.FBX using Guid(7da092ca6c07c4948832489186c3a865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1118f8220ae31a431dc29df4effa0cdd') in 1.245364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/imports/street-city/city.blend
+  artifactKey: Guid(c6069165aa2efc14d9c41ab2d4e3953d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/street-city/city.blend using Guid(c6069165aa2efc14d9c41ab2d4e3953d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a95b270eaa8f0b113ebecbbf7d9c347b') in 6.410098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/imports/50-girl-blend/Animations/Materials/BOTmat.mat
+  artifactKey: Guid(000d83bb5b5650f4aa91b7a64df44345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/50-girl-blend/Animations/Materials/BOTmat.mat using Guid(000d83bb5b5650f4aa91b7a64df44345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e42ba2d20be989b7c8557e57fe7f55e2') in 0.056417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/imports/50-girl-blend/Animations/Materials/Topmat.mat
+  artifactKey: Guid(d2c0cf8e43534144484a4343c33f5d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/50-girl-blend/Animations/Materials/Topmat.mat using Guid(d2c0cf8e43534144484a4343c33f5d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa491a5e6b5220b66c8edb1a01e17608') in 0.084702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/imports/50-girl-blend/Animations/Materials/FACEmat.mat
+  artifactKey: Guid(9886b601eebdced40940c29699c01d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/50-girl-blend/Animations/Materials/FACEmat.mat using Guid(9886b601eebdced40940c29699c01d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f49b3fe080125ee655a36799deedc6c1') in 0.066934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/imports/50-girl-blend/Animations/Materials/BOdy_Skinmat.mat
+  artifactKey: Guid(2e52d26428b1a7f4297b4311a1f62743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/50-girl-blend/Animations/Materials/BOdy_Skinmat.mat using Guid(2e52d26428b1a7f4297b4311a1f62743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bdce7afd42305982b83198730690cbf') in 0.044938 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 41.592400 seconds.
+  path: Assets/imports/50-girl-blend/Animations/Pack/Female Basic Locomotion Pack/Girl.fbx
+  artifactKey: Guid(d714b0fd7f89d4d4783fa847afd5f114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/50-girl-blend/Animations/Pack/Female Basic Locomotion Pack/Girl.fbx using Guid(d714b0fd7f89d4d4783fa847afd5f114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36ea0bad02d8008f4d7ca690e9fd08c6') in 0.627171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 44.513813 seconds.
+  path: Assets/imports/50-girl-blend/Animations/Pack/Female Basic Locomotion Pack/Girl.fbx
+  artifactKey: Guid(d714b0fd7f89d4d4783fa847afd5f114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/50-girl-blend/Animations/Pack/Female Basic Locomotion Pack/Girl.fbx using Guid(d714b0fd7f89d4d4783fa847afd5f114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '699c2764bd098c45416de8b9588c0fcb') in 0.539364 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.043434 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  7.104 seconds
+Domain Reload Profiling:
+	ReloadAssembly (7107ms)
+		BeginReloadAssembly (1531ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (34ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (544ms)
+		EndReloadAssembly (5095ms)
+			LoadAssemblies (851ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (2895ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (165ms)
+			SetupLoadedEditorAssemblies (1482ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (356ms)
+				ProcessInitializeOnLoadAttributes (945ms)
+				ProcessInitializeOnLoadMethodAttributes (125ms)
+				AfterProcessingInitializeOnLoad (30ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (27ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 8.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5046 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (80.0 KB). Loaded Objects now: 5560.
+Memory consumption went from 198.7 MB to 198.6 MB.
+Total: 12.936400 ms (FindLiveObjects: 1.200600 ms CreateObjectMapping: 1.050600 ms MarkObjects: 9.978300 ms  DeleteObjects: 0.702600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1403.815940 seconds.
+  path: Assets/imports/50-girl-blend/Animations/Girl.controller
+  artifactKey: Guid(917074653299b734490536b787d29e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/50-girl-blend/Animations/Girl.controller using Guid(917074653299b734490536b787d29e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fe9ca69caede7ae8a984a82385e179f') in 0.452146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/imports/50-girl-blend/Animations/Pack/Female Basic Locomotion Pack/Girl.controller
+  artifactKey: Guid(55c3db6b66b96b849aed73913498a892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/50-girl-blend/Animations/Pack/Female Basic Locomotion Pack/Girl.controller using Guid(55c3db6b66b96b849aed73913498a892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c7cec2574ebf6f1144df925b37f3887') in 0.007086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.780332 seconds.
+  path: Assets/imports/50-girl-blend/Animations/Pack/Female Basic Locomotion Pack/Girl.controller
+  artifactKey: Guid(55c3db6b66b96b849aed73913498a892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/50-girl-blend/Animations/Pack/Female Basic Locomotion Pack/Girl.controller using Guid(55c3db6b66b96b849aed73913498a892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fef73cf25bf3aad586a8fa599dd2f57') in 0.010744 seconds 

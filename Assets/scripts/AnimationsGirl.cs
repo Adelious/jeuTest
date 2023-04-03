@@ -5,7 +5,7 @@ using Unity.Netcode;
 
 public class AnimationsGirl : NetworkBehaviour
 {
-    private Animator animator;
+    [SerializeField]private Animator animator;
     public GameObject cam;
     public float smooth = 0.5f;
 
@@ -33,13 +33,16 @@ public class AnimationsGirl : NetworkBehaviour
     void Start()
     {
         if(!IsOwner) return;
-        Destroy(GameObject.FindGameObjectWithTag("MainCamera"));
+        GameObject.FindGameObjectWithTag("MainCamera").SetActive(false);
         animator = gameObject.GetComponent<Animator>();
         rb = GetComponent<Rigidbody>();
     }
 
     void Update()
     {
+        // Idle -> Gauche - Droite
+        // Walking -> Gauche - Droite - 180
+
         if(!IsOwner) return;
         float h = Input.GetAxis("Horizontal");
         float v = Input.GetAxis("Vertical");
